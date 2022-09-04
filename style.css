@@ -131,6 +131,15 @@ body.dark {
   color: #fff;
 }
 
+.card {
+  width: 150px;
+  height: 150px;
+  background-color: darkgray;
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+}
+
 .checkbox:checked + .label .ball {
   transform: translateX(24px);
 }
