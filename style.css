@@ -132,14 +132,17 @@ body.dark {
 }
 
 .card {
-  width: 150px;
-  height: 150px;
-  background-color: darkgray;
+  width: 200px;
+  height: 200px;
+  background-color: #1b1b1b;
   justify-content: center;
   margin-top: 20px;
   display: flex;
 }
 
+.tombol {
+  margin: 0;
+}
 .checkbox:checked + .label .ball {
   transform: translateX(24px);
 }
