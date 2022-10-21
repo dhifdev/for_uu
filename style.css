@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: consolas;
 }
 
 body {
@@ -42,8 +43,15 @@ body.dark {
   transition: transform 0.2s linear;
 }
 
+.word {
+  position: relative;
+}
+
 .word h2 {
+  position: relative;
   color: #fff;
+  font-size: 2rem;
+  letter-spacing: 5px;
   margin-bottom: 2rem;
 }
 
